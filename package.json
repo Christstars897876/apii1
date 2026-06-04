@@ -1,21 +1,29 @@
 {
-  "name": "chris st",
+  "name": "Delfa api 2.0",
   "version": "1.0.0",
-  "description": "API IA centrale — 21st.dev sur Vercel",
+  "description": "A simple lightweight REST API by Delfa frost ",
+  "main": "index.js",
   "scripts": {
-    "build:agent": "npx @21st-sdk/cli deploy",
-    "deploy:agent": "npx @21st-sdk/cli login && npx @21st-sdk/cli deploy",
-    "dev": "vercel dev"
+    "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Delfa frost",
+  "license": "ISC",
   "dependencies": {
-    "@21st-sdk/agent": "latest",
-    "@21st-sdk/node": "latest",
-    "@vercel/node": "^3.0.0",
-    "zod": "^3.22.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0",
-    "vercel": "^34.0.0"
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "helmet": "latest",
+    "kleur": "^4.1.5",
+    "moment-timezone": "^0.5.46",
+    "ssl-express-www": "^3.2.1"
   }
 }
